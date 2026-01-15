@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dehemi-portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+   <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<!-- <body lass="min-h-screen bg-white"> -->
+    <body class="min-h-screen bg-black">
+      <!-- Navbar -->
+  <!-- <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50"> -->
+    <nav class="fixed w-full bg-black text-white ">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="font-bold text-2xl text-white-600"></div>
+
+        <!-- Desktop & Mobile Menu Always Visible -->
+        <div class="flex space-x-4">
+          <a href="#home" class="text-white-600 transition">Home</a>
+          <a href="#about" class="text-white-600 transition">About</a>
+          <a href="#services" class="text-white-600 transition">Services</a>
+            <a href="#experience" class="text-white-600 transition">Experience</a>
+          <a href="#portfolio" class="text-white-600 transition">Portfolio</a>
+          <a href="#contact" class="text-white-600 transition">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-16 min-h-screen flex items-center bg-black">
+
+    <div class="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h4 class="text-2xl md:text-2xl  font-bold text-white mb-1">I am
+            <span class="text-blue-600"></span></h4>
+        <h1 class="text-5xl md:text-6xl font-bold text-white mb-6">
+        Dehemi Upeksha
+        <span class="text-blue-600">
+        Software Engineer
+        </span>
+        </h1>
+        <p class="text-xl text-gray-600 mb-8">
+          We deliver cutting-edge technology solutions that drive innovation and accelerate business growth.
+        </p>
+        <div class="flex gap-4">
+          <a href="#contact" class="px-8 py-3 bg-blue-600 text-white rounded-lg">Get Started</a>
+          <a href="#experience" class="px-8 py-3 border border-blue-600 rounded-lg text-blue-600">View Our Work</a>
+        </div>
+      </div>
+
+      <!-- <div>
+        <img src="image/profile.jpeg"
+             class="rounded-2xl shadow-2xl" />
+      </div> -->
+     <div class="relative group w-full
+      h-full
+       mx-auto">
+  <img
+    src="image/profile2.png"
+    class="w-full h-full object-cover rounded-full hadow-xl
+           group-hover:scale-110 group-hover:shadow-blue-500/50
+           transition-all duration-500  border-none"
+  />
+</div>
+
+
+    </div>
+  </section>
+<!-- About Section -->
+<section id="about" class="py-24 bg-black text-white">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+    <div class="w-72 h-72 mx-auto rounded-2xl overflow-hidden">
+      <img src="image/profile.jpeg" 
+           class="w-full h-full object-cover hover:scale-105 transition-all duration-500" />
+    </div>
+
+   
+    <div>
+      <h2 class="text-4xl font-bold mb-4">
+        About <span class="text-blue-500">Me</span>
+      </h2>
+
+      <p class="text-gray-300 mb-6 leading-relaxed text-lg">
+        I am a passionate <span class="text-blue-400 font-semibold">Software Developer</span> 
+        who loves building modern web applications, solving complex problems,
+        and transforming business ideas into scalable digital solutions.
+      </p>
+
+      <p class="text-gray-400 mb-8 leading-relaxed">
+        I specialize in frontend and backend development with hands-on experience 
+        in React, Node.js, Express, Tailwind CSS, and PostgreSQL. 
+        I focus on performance, UI/UX, reusability, and clean coding.
+      </p>
+
+      <!-- <div class="flex gap-4">
+        <a href="#portfolio" 
+           class="px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition">
+          View Projects
+        </a>
+
+        <a href="#contact" 
+           class="px-6 py-3 border border-blue-600 text-blue-400 rounded-lg hover:bg-blue-600/10 transition">
+          Contact Me
+        </a>
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- Services Section -->
+<section id="services" class="py-24 bg-black text-white">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    
+    <h2 class="text-4xl font-bold mb-6">
+      My <span class="text-blue-500">Services</span>
+    </h2>
+    <p class="text-gray-400 text-lg mb-14">
+      I provide end-to-end digital solutions with clean UI, performance, and scalability.
+    </p>
+
+    <!-- Service Cards -->
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Card 1 -->
+      <div class="bg-gray-900 rounded-2xl p-8 hover:bg-gray-800 hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] transition duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-blue-400">Web Development</h3>
+        <p class="text-gray-400 text-[15px] leading-relaxed">
+          I build responsive, high-performance websites using React, Tailwind, Node.js & APIs.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-gray-900 rounded-2xl p-8 hover:bg-gray-800 hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] transition duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-blue-400">UI / UX Design</h3>
+        <p class="text-gray-400 text-[15px] leading-relaxed">
+          Clean and modern interfaces that focus on usability, branding, and user experience.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-gray-900 rounded-2xl p-8 hover:bg-gray-800 hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] transition duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-blue-400">Backend Solutions</h3>
+        <p class="text-gray-400 text-[15px] leading-relaxed">
+          API development, authentication, databases, and secure server-side apps.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- Experience Section -->
+<!-- <section id="experience" class="py-24 bg-black text-white">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-4xl font-bold mb-6 text-center">
+      My <span class="text-blue-500">Experience</span>
+    </h2>
+
+    <p class="text-gray-400 text-lg mb-14 text-center">
+      Practical experience gained through academic and personal projects.
+    </p> -->
+
+    <!-- Experience Card -->
+   <!-- Development & Testing Section -->
+<section id="experience" class="py-24 bg-black text-white">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-4xl font-bold mb-6 text-center">
+     My <span class="text-blue-500">Experience</span>
+    </h2>
+
+    <p class="text-gray-400 text-lg mb-14 text-center">
+      Hands-on experience in full-stack development and automated testing through real-world projects.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <!-- Development Card -->
+      <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] transition">
+        <h3 class="text-2xl font-semibold mb-4 text-blue-400">
+          Development
+        </h3>
+
+        <ul class="list-disc list-inside text-gray-400 space-y-2">
+          <li>Developed a web-based <strong>Hotel ERP system</strong> using React, Node.js, and PostgreSQL.</li>
+           <li>Developed inventory management features to track stock usage and availability.</li>
+          <li>Implemented Restaurant / POS modules with menu and product management.</li>
+           <li>Developed Finance module to manage invoices, payments, and expense records.</li>
+            <li>Implemented income and expense tracking for hotel and restaurant operations.</li>
+            <li>Generated financial summaries and reports for daily and monthly transactions.</li>
+            <li>Worked with PostgreSQL to design finance-related tables and relationships.</li>
+          <li>Designed RESTful APIs and integrated frontend and backend.</li>
+          <li>Focused on clean code, reusability, and responsive UI design.</li>
+        </ul>
+      </div>
+
+      <!-- Testing Card -->
+      <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] transition">
+        <h3 class="text-2xl font-semibold mb-4 text-purple-400">
+          Testing
+        </h3>
+
+        <ul class="list-disc list-inside text-gray-400 space-y-2">
+          <li>Performed end-to-end (E2E) testing using <strong>Cypress</strong>.</li>
+          <li>Wrote automated test cases for login, form submissions, and CRUD operations.</li>
+          <li>Validated UI behavior, API integrations, and error handling.</li>
+          <li>Identified and fixed bugs to improve application stability and reliability.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-24 bg-black text-white">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+
+    <h2 class="text-4xl font-bold mb-6">
+      My <span class="text-blue-500">Projects</span>
+    </h2>
+    <p class="text-gray-400 text-lg mb-14">
+      Here are some of my recent works showcasing web apps, UI designs & development experiences.
+    </p>
+
+    <!-- Portfolio Grid -->
+    <div class="grid md:grid-cols-3 gap-10">
+
+      <!-- Project 1 -->
+      <div class="bg-gray-900 rounded-2xl overflow-hidden group hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] transition">
+        <div class="h-52 overflow-hidden">
+          <img src="image/emp.png" 
+               class="w-full h-full object-cover group-hover:scale-110 transition duration-500"/>
+        </div>
+        <div class="p-6 text-left">
+          <h3 class="text-2xl font-semibold mb-2 text-blue-400">Employee Management System</h3>
+          <p class="text-gray-400 mb-4 text-sm leading-relaxed">
+           C# & SQL Server application for managing employee records with CRUD operations, searchable employee lists, and a professional dashboard.
+          </p>
+          <!-- <a href="#" class="text-blue-500 font-semibold hover:underline">View More →</a> -->
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+     
+
+      <!-- Project 3 -->
+      <div class="bg-gray-900 rounded-2xl overflow-hidden group hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] transition">
+        <div class="h-52 overflow-hidden">
+          <img src="image/doctor booking.png" 
+               class="w-full h-full object-cover group-hover:scale-110 transition duration-500"/>
+        </div>
+        <div class="p-6 text-left">
+          <h3 class="text-2xl font-semibold mb-2 text-blue-400">Doctor Appintment Web Application</h3>
+          <p class="text-gray-400 mb-4 text-sm leading-relaxed">
+            A PHP & MySQL based web application for managing doctor appointments. Supports CRUD operations for patient and doctor management,
+             and allows users to book, view, and manage appointments efficiently.
+          </p>
+          <!-- <a href="#" class="text-blue-500 font-semibold hover:underline">View More →</a> -->
+        </div>
+      </div>
+       <div class="bg-gray-900 rounded-2xl overflow-hidden group hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] transition">
+        <div class="h-52 overflow-hidden">
+          <img src="image/norm.png" 
+               class="w-full h-full object-cover group-hover:scale-110 transition duration-500"/>
+        </div>
+        <div class="p-6 text-left">
+          <h3 class="text-2xl font-semibold mb-2 text-blue-400">Norm Managemnt Module</h3>
+          <p class="text-gray-400 mb-4 text-sm leading-relaxed">
+          Norm Management Module Full-stack web application to manage organizational norms with CRUD operations and PDF report generation,
+           built using React, TypeScript, Node.js, and PostgreSQL.
+          </p>
+          <!-- <a href="#" class="text-blue-500 font-semibold hover:underline">View More →</a> -->
+        </div>
+      </div>
+
+    </div>
+    
+
+    <!-- View All Button -->
+    <!-- <div class="mt-14">
+      <a href="#contact"
+         class="px-8 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition font-semibold">
+        View All Projects
+      </a>
+    </div> -->
+
+  </div>
+</section>
+<section id="contact" class="py-20 bg-gray-950 text-gray-300">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold text-white mb-4">📩 Contact Me</h2>
+    <p class="text-gray-400 mb-10">
+      Feel free to reach out for collaborations or just a friendly hello 👇
+    </p>
+
+    <!-- Contact Info Cards -->
+    <div class="grid md:grid-cols-3 gap-8 mb-12">
+      <div class="p-6 rounded-xl bg-gray-900 border border-gray-800 hover:border-purple-500 transition">
+        <span class="text-2xl">📍</span>
+        <h3 class="font-semibold text-white mt-2">Location</h3>
+        <p class="text-gray-400 text-sm">Sri Lanka</p>
+      </div>
+      <div class="p-6 rounded-xl bg-gray-900 border border-gray-800 hover:border-pink-500 transition">
+        <span class="text-2xl">📧</span>
+        <h3 class="font-semibold text-white mt-2">Email</h3>
+        <p class="text-gray-400 text-sm">
+           dehemiupeksha6@gmail.com
+        </p>
+      </div>
+      <div class="p-6 rounded-xl bg-gray-900 border border-gray-800 hover:border-blue-500 transition">
+        <span class="text-2xl">📞</span>
+        <h3 class="font-semibold text-white mt-2">Phone</h3>
+        <p class="text-gray-400 text-sm">
+            +94 70 33206339
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <!-- <form class="grid gap-6 text-left bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-800">
+      <input
+        type="text"
+        placeholder="Your Name"
+        class="bg-gray-950 border border-gray-800 rounded-lg px-4 py-3 focus:border-purple-500 outline-none"
+      />
+      <input
+        type="email"
+        placeholder="Your Email"
+        class="bg-gray-950 border border-gray-800 rounded-lg px-4 py-3 focus:border-blue-500 outline-none"
+      />
+      <textarea
+        rows="5"
+        placeholder="Message"
+        class="bg-gray-950 border border-gray-800 rounded-lg px-4 py-3 focus:border-pink-500 outline-none"></textarea>
+
+      <button
+        type="submit"
+        class="w-full py-3 bg-purple-600 hover:bg-purple-700 rounded-lg text-white font-semibold transition">
+        Send Message 🚀
+      </button>
+    </form> -->
+  <form id="contact-form" class="grid gap-6 text-left bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-800 relative">
+  <input type="text" name="name" placeholder="Your Name" class="bg-gray-950 border border-gray-800 rounded-lg px-4 py-3 focus:border-purple-500 outline-none" required />
+  <input type="email" name="email" placeholder="Your Email" class="bg-gray-950 border border-gray-800 rounded-lg px-4 py-3 focus:border-blue-500 outline-none" required />
+  <textarea name="message" rows="5" placeholder="Message" class="bg-gray-950 border border-gray-800 rounded-lg px-4 py-3 focus:border-pink-500 outline-none" required></textarea>
+  
+  <button type="submit" class="w-full py-3 bg-purple-600 hover:bg-purple-700 rounded-lg text-white font-semibold transition">Send Message 🚀</button>
+
+  <!-- Notification Message Div -->
+  <div id="form-message" class="absolute top-0 left-1/2 -translate-x-1/2 mt-4 px-6 py-3 rounded-lg font-semibold hidden transition-all duration-300"></div>
+</form>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init("2iThQIdjfkNv_ZA-_"); // Public Key
+  })();
+
+  const form = document.getElementById("contact-form");
+  const formMessage = document.getElementById("form-message");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    emailjs.sendForm(
+      "service_yklkfk8",
+      "template_i6zjyh8",
+      this
+    ).then(
+      () => {
+        formMessage.textContent = "Message sent successfully! 🚀";
+        formMessage.classList.remove("hidden", "bg-red-500", "text-red-100");
+        formMessage.classList.add("bg-green-500", "text-white");
+        form.reset();
+
+        setTimeout(() => {
+          formMessage.classList.add("hidden");
+        }, 3000);
+      },
+      (error) => {
+        console.error(error);
+        formMessage.textContent = "Failed 😢 Check EmailJS IDs";
+        formMessage.classList.remove("hidden", "bg-green-500", "text-white");
+        formMessage.classList.add("bg-red-500", "text-red-100");
+
+        setTimeout(() => {
+          formMessage.classList.add("hidden");
+        }, 3000);
+      }
+    );
+  });
+</script>
+
+
+
+
+
+    
+
+</body>
+</html>
